@@ -4,6 +4,12 @@ body {
   background-color: #ffffff;
 }
 
+.logohandler img{
+ 
+  height: 50px;
+  width: 200px;
+}
+
 .navbar-brand  {
   height: 30px;
   width: 80px;
@@ -43,13 +49,26 @@ body {
           flex-direction: column;
   -webkit-box-align: start;
       -ms-flex-align: start;
-          align-items: center;
+          
 }
 
 .heading_container h2 {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.heading_container h3 {
+  margin-left: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.heading_container p {
+  margin-left: 40px;
 }
 
 .heading_container h2::before, .heading_container h2::after {
